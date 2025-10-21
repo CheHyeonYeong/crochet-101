@@ -43,8 +43,23 @@
             padding: 8px 0;
             border-bottom: 1px dotted #ccc;
         }
-        .schedule-item:last-child {
-            border-bottom: none;
+        details {
+            background-color: #fafafa;
+            border: 1px solid #ddd;
+            padding: 12px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        details summary {
+            font-size: 16px;
+            user-select: none;
+        }
+        details summary:hover {
+            background-color: #f0f0f0;
+        }
+        details p {
+            margin: 10px 0 0 20px;
+            color: #666;
         }
         .time {
             font-weight: bold;
@@ -55,51 +70,83 @@
 </head>
 <body>
     <h1>코바늘 수업 안내</h1>
+    <h2>⭐기본공지⭐</h2>
+    <div class="notice-box">
+  <ul>
+            <li><strong>일시 :</strong> 2025-11-16 오후 1시</li>
+            <li><strong>장소 :</strong> <a href= "https://naver.me/x6Uy4Nm3">투썸플레이스 사당점 서울 관악구 남부순환로 2082-33 성광빌딩 </a></li>
+            <li><strong>참여인 :</strong> 코헤, 로빈, 라리사</li>
+</div>
     
     <h2>📌 준비물</h2>
     <div class="notice-box">
         <h3>학생 준비물</h3>
         <ul>
-            <li><strong>밝은 색 굵은 실</strong> (50g 정도)
-                <ul>
-                    <li>추천: 흰색, 베이지, 연한 회색, 하늘색</li>
-                    <li>❌ 피해주세요: 검정, 남색 등 어두운 색</li>
-                    <li>❌ 피해주세요: 털실이나 앙고라 같은 보풀 많은 실</li>
-                </ul>
-            </li>
+            <li><strong>준비하실 생각이라면:</strong> 굵고 밝은 실과 굵은 코바늘을 준비해주세요</li>
+  <li>실 색상 예시: 흰색, 베이지, 연한 회색, 하늘색 등  </li>
+<li>어두운 색(검정, 남색)은 코가 잘 안 보여서 피해주세요</li>
+<li>다이소나 문구점에서 "코바늘용 실" 구매 가능해요</li>
+
+            <li><strong>편하게 오신다면 :</strong> 제가 준비해 갑니다</li>
         </ul>
-        <p>※ 코바늘은 선생님이 준비합니다</p>
-        <p>※ 실이 없으신 분은 미리 말씀해 주세요</p>
-        <p>※ 다이소에서 "아크릴 면사"나 "코바늘용 실" 구매 가능</p>
     </div>
 
-    <h2>📚 수업 내용</h2>
-    <ul>
-        <li><strong>사슬뜨기</strong>: 모든 코바늘의 기초가 되는 기법</li>
-        <li><strong>긴뜨기</strong>: 빠르게 작품을 만들 수 있는 기본 기법</li>
-        <li><strong>간단한 작품 완성</strong>: 사각 컵받침 또는 수세미</li>
-    </ul>
+    <h2>📚 수업 내용(TBO)</h2>
+    
+    <details>
+        <summary><strong>사슬뜨기</strong></summary>
+        <p>모든 코바늘의 기초가 되는 기법</p>
+    </details>
+    
+    <details>
+        <summary><strong>짧은뜨기</strong></summary>
+        <p>빠르게 작품을 만들 수 있는 기본 기법</p>
+    </details>
+    
+    <details>
+        <summary><strong>간단한 작품 완성</strong></summary>
+        <p>사각 컵받침 또는 수세미</p>
+    </details>
+    
+    <details>
+        <summary><strong>매직서클</strong></summary>
+        <p>시간이 남는다면 어려운 친구들을 한 번 도전해봐요</p>
+    </details>
+    
+    <details>
+        <summary><strong>긴뜨기</strong></summary>
+        <p>긴뜨기 기법을 배워봅니다</p>
+    </details>
+    
+    <details>
+        <summary><strong>한길긴뜨기</strong></summary>
+        <p>한길긴뜨기 기법을 배워봅니다</p>
+    </details>
+    <details>
+        <summary><strong>빼뜨기</strong></summary>
+        <p>빼뜨기 기법을 배워봅니다</p>
+    </details>
 
-    <h2>⏰ 수업 일정 (3시간 기준)</h2>
+    <h2>⏰ 수업 일정 (오후 1시 ~ 4시)</h2>
     <div class="schedule">
         <div class="schedule-item">
-            <span class="time">0:00 - 0:10</span>
+            <span class="time">1:00 - 1:10</span>
             <span>소개 및 재료 설명</span>
         </div>
         <div class="schedule-item">
-            <span class="time">0:10 - 0:40</span>
+            <span class="time">1:10 - 1:40</span>
             <span>사슬뜨기 연습</span>
-        </div>https://github.com/CheHyeonYeong/crochet-101/tree/main
-        <div class="schedule-item">
-            <span class="time">0:40 - 1:20</span>
-            <span>긴뜨기 배우기</span>
         </div>
         <div class="schedule-item">
-            <span class="time">1:20 - 2:40</span>
+            <span class="time">1:40 - 2:20</span>
+            <span>짧은뜨기 배우기</span>
+        </div>
+        <div class="schedule-item">
+            <span class="time">2:20 - 3:40</span>
             <span>작품 만들기 (사각 컵받침)</span>
         </div>
         <div class="schedule-item">
-            <span class="time">2:40 - 3:00</span>
+            <span class="time">3:40 - 4:00</span>
             <span>마무리, 질문 받기</span>
         </div>
     </div>
